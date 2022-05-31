@@ -22,6 +22,9 @@ button > *, nav li a {
 .bl {
     background-color: #1e90ff;
 }
+.greencont .bl {
+    margin-bottom:10%;
+}
 .bk {
     background-color: #000;
 }
@@ -46,7 +49,7 @@ header {
     height: 10vh;
     display: flex;
     align-items: center;
-    background-color: #255ee9;
+    background-color: #7289da;
 }
 .headerhigh {
     margin: auto;
@@ -68,7 +71,7 @@ nav li {
     display: inline;
     list-style: none;
     padding:0 2%;
-    font-size: 16px;
+    font-size: 14px;
 }
 nav li a {
     color: #fff;
@@ -108,7 +111,7 @@ header .login {
     align-items: center;
 }
 .sectiont1, .sectiont2, footer {
-    height: 55vh;
+    height: 60vh;
 }
 .sectiont3, .sectiont2 {
     background-color: #d3d3d3;
@@ -145,6 +148,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     line-height: 3rem;
+    margin: 5% 0 3% 0;
 }
 section h2 {
     margin-bottom:3%;
@@ -152,6 +156,9 @@ section h2 {
     font-size: 35px;
 }
 /* Footer */
+footer{
+    color: #fff;
+}
 .foot {
     background-color: #23272a ;
     height: 45vh;
@@ -159,19 +166,46 @@ section h2 {
     justify-content: center;
     align-items: flex-start;
 }
-.col, .colb {
+.col, .colb, .colb>* {
     margin-top: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.col > ul {
+    margin-top: 5px;
+    list-style-type: none;
+}
+.col > ul > li:first-child, .colb h2{
+    color: #7289DA;
 }
 .colb {
     width: 20%;
 }
+.colb h2 {
+    font-size: 30px;
+    margin-bottom: 7%;
+}
 .col {
     width: 10%;
 }
+.socialicon {
+    font-size: 25px;
+    margin: 5% 0;
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+}
+.socialicon > i {
+    padding-right:7% ;
+    margin: 5% 0;
+}
 /* Parte finale footer */
 footer {
-    background-color: #255ee9;
+    background-color: #7289DA;
 }
+/* Parte finale footer */
 .low {
     margin-top: 3px;
     display: flex;
@@ -187,6 +221,7 @@ footer {
 .footl {
     background-color: #23272a;
 }
+
 /* Pattern onda tra sezioni */
 .wavepattern {
     margin-bottom: -5px;
