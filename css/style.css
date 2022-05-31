@@ -3,15 +3,50 @@
     box-sizing: border-box;
     padding: 0;
 }
-
-body{
+body {
     font-family: 'Whitney','Helvetica Neue', 'Helvetica', sans-serif;
 }
-
+/* Regole Button */
+button {
+    border-radius: 25px;
+    padding: 2% 2%;    
+    margin: 1%;
+    border: 0;
+}
+button > *, nav li a {
+    text-decoration: none;
+}
+.wh {
+    background-color: #fff;
+    color: #000;
+}
+.bl {
+    background-color: #1e90ff;
+}
+.bl, .bk {
+    color: #fff;
+}
+.bk{
+    background-color: #000;
+}
+#wh1::before {
+    content: "\1F817";
+}
+.bl, .bk, nav li a:active {
+    color: white;
+}
+button .wh:active {
+    color: black;
+}
+.buttons-header-low{
+    margin-top: 1%;
+}
+/* Fine regole button */
 header {
     height: 10vh;
     display: flex;
     align-items: center;
+    background-color: #255ee9;
 }
 .headerhigh {
     margin: auto;
@@ -29,29 +64,39 @@ header nav {
     flex-basis: 50%;
     text-align: center;
 }
-nav li{
+nav li {
     display: inline;
-    list-style-type: none;
     list-style: none;
+    padding:0 2%;
+    font-size: 16px;
+}
+nav li a {
+    color: #fff;
 }
 header .login {
     padding-right: 1%;
     flex-basis: 25%;
     text-align: right;
 }
-header .logo, header nav, header .login {
-    padding: 1% 1%;
-}
-/* Parte inferiore header  */
-.headerlow{
+    /* Parte inferiore header  */
+.headerlow {
+    text-align: center;
     background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
 }
 .containerhead {
-    width: 40%;
-    height: 30vh;
-    margin: 2% auto;
+    height: 50%;
+    margin: 3% auto;
+}
+.containerhead > h1 {
+    margin: 3%;
+    margin-bottom: 4%;
+    margin-top: 10%;
+}
+.containerhead > h1, p {
+    color: #fff;
 }
 /* sezioni pagina */
 .sectiont1, .sectiont2, .sectiont3 {
@@ -110,10 +155,7 @@ header .logo, header nav, header .login {
     justify-content: space-between;
     align-items: center;
 }
-button {
-    padding:1%;
-    margin: 1% 0;
-}
+
 /* Pattern onda tra sezioni */
 .wavepattern {
     margin-bottom: -5px;
@@ -124,12 +166,13 @@ button {
     margin-top: -5px;
     transform: rotate(180deg);
 }
-/* Regole di Debug */
+
+/* ---------------Regole di Debug---------------- */
 .debug * {
     border: 1px dotted black;
 }
 .debug header {
-    background-color: #add8e6;
+    background-color: #255ee9;
 }
 .debug .logo, .debug nav, .debug .login {
     background-color: #daa520;
@@ -138,7 +181,7 @@ button {
     background-color: #00008b;
 }
 .debug .containerhead, .debug .colb{
-    background-color: #ee82ee; 
+    /* background-color: #ee82ee;  */
 }
 .debug .container {
     background-color: #1e90ff;
@@ -154,7 +197,4 @@ button {
 }
 .debug .footlcont{
     background-color: #1ec299 ;
-}
-.debug button {
-    background-color: grey ;
 }
