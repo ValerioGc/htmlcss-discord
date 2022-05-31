@@ -127,6 +127,9 @@ header .login {
     align-items: center;
     min-width: 100%;
 }
+.containerhead {
+    margin: 11% 32%;
+}
 .containerhead > h1 {
     margin-bottom: 4%;
     font-size: 35px;
@@ -162,9 +165,7 @@ header .login {
     text-align: left;
     margin: 5% 0;
 }
-.containerhead {
-    width: 45%;
-}
+
 .container2 {
     width: 30%;
 }
@@ -205,17 +206,12 @@ footer {
     justify-content: center;
     align-items: flex-start;
 }
-#ita {
-    display: inherit;
+.colb {
+    width: 21%;
 }
-#band {
-    width: 20%;
-    margin-right: 4%;
-}
-#ita p::after {
-    content: '\142F';
-    margin-left: 5%;
-    font-size: 12px;
+.colb h2 {
+    font-size: 30px;
+    margin-bottom: 7%;
 }
 .col, .colb {
     margin: 5% 0 1%;
@@ -229,20 +225,27 @@ footer {
 .col > ul > li:first-child, .colb h2 {
     color: #7289DA;
 }
-.colb {
-    width: 21%;
+.col ul li {
+    padding: 8% 0;
+    list-style-type: none;
 }
 .col {
     width: 14%;
 }
-.colb h2 {
-    font-size: 30px;
-    margin-bottom: 7%;
+/* Selezione Lingua ita */
+#ita {
+    display: inherit;
 }
-.col ul li {
-    padding:8% 0;
-    list-style-type: none;
+#band {
+    width: 20%;
+    margin-right: 4%;
 }
+#ita p::after {
+    content: '\142F';
+    margin-left: 5%;
+    font-size: 12px;
+}
+/* Icone font-awersome */
 .socialicon {
     font-size: 25px;
     display: flex;
