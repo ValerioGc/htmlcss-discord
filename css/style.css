@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: 'Whitney','Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.headerhigh {
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    vertical-align: middle;
+}
+.logo {
+    text-align: left;
+    flex-basis: 25%;
+    padding-left: 1%;
+}
+header nav {
+    flex-basis: 50%;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    list-style: none;
+}
+header .login {
+    padding-right: 1%;
+    flex-basis: 25%;
+    text-align: right;
+}
+header .logo, header nav, header .login {
+    padding: 1% 1%;
+}
+/* Parte inferiore header  */
+.headerlow{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.containerhead {
+    width: 40%;
+    height: 30vh;
+    margin: 2% auto;
+}
+/* sezioni pagina */
+.sectiont1, .sectiont2, .sectiont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectiont1, .sectiont2, footer {
+    height: 55vh;
+}
+.sectiont3, .sectiont2 {
+    background-color: #d3d3d3;
+}
+.sectiont3 {
+    height: 65vh;
+}
+.container, .container2, .greencont, .col, .colb {
+    height: 85%;
+}
+.containerhead, .container {
+    width: 40%;
+}
+.container2{
+    width: 20%;
+}
+.headerhigh, .greencont, .footlcont {
+    width: 60%; 
+}
+/* Footer */
+.foot {
+    background-color: #23272a ;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.col, .colb {
+    margin-top: 5px;
+}
+.colb {
+    width: 20%;
+}
+.col {
+    width: 10%;
+}
+/* Parte finale footer */
+.low {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 10vh;
+}
+.footlcont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    padding:1%;
+    margin: 1% 0;
+}
+/* Pattern onda tra sezioni */
+.wavepattern {
+    margin-bottom: -5px;
+    filter: invert(71%) sepia(99%) saturate(1%) hue-rotate(314deg) brightness(95%) contrast(101%);
+}
+
+.mirror {
+    margin-top: -5px;
+    transform: rotate(180deg);
+}
+/* Regole di Debug */
+.debug * {
+    border: 1px dotted black;
+}
+.debug header {
+    background-color: #add8e6;
+}
+.debug .logo, .debug nav, .debug .login {
+    background-color: #daa520;
+}
+.debug .headerlow {
+    background-color: #00008b;
+}
+.debug .containerhead, .debug .colb{
+    background-color: #ee82ee; 
+}
+.debug .container {
+    background-color: #1e90ff;
+}
+.debug .container2 {
+    background-color: #ffc0cb;
+}
+.debug .greencont {
+    background-color: #228b22;
+}
+.debug .col{
+    background-color: #20b2aa ;
+}
+.debug .footlcont{
+    background-color: #1ec299 ;
+}
+.debug button {
+    background-color: grey ;
+}
