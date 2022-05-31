@@ -183,12 +183,14 @@ footer {
     margin-left: 5%;
     font-size: 12px;
 }
+.col, .colb {
+    margin: 5% 0 1%;
+}
 .col, .colb, .colb > * {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 5% 0 1%;
 }
 .col > ul > li:first-child, .colb h2 {
     color: #7289DA;
