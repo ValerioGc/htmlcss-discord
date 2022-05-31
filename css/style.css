@@ -20,7 +20,7 @@ button > *, nav li a {
     background-color: #fff;
 }
 .bl {
-    background-color: #1e90ff;
+    background-color: #7289da;
 }
 .greencont .bl {
     margin-bottom:10%;
@@ -163,7 +163,7 @@ section h2 {
 /* Footer pagina */
 footer {
     color: #fff;
-    background-color: #7289DA;
+    background-color: #7289da;
 }
 .foot {
     background-color: #23272a ;
@@ -198,12 +198,12 @@ footer {
 .colb {
     width: 21%;
 }
+.col {
+    width: 14%;
+}
 .colb h2 {
     font-size: 30px;
     margin-bottom: 7%;
-}
-.col {
-    width: 14%;
 }
 .col ul li {
     padding:8% 0;
@@ -221,11 +221,12 @@ footer {
 }
 /* Parte finale footer */
 .low {
-    margin-top: 3px;
+    margin-top: 0.5%;
+    padding-bottom:5%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 15vh;
+
 }
 .footlcont {
     display: flex;
@@ -241,12 +242,10 @@ footer {
     margin-bottom: -5px;
     filter: invert(71%) sepia(99%) saturate(1%) hue-rotate(314deg) brightness(95%) contrast(101%);
 }
-
 .mirror {
     margin-top: -5px;
     transform: rotate(180deg);
 }
-
 /* ---------------Regole di Debug---------------- */
 .debug * {
     border: 1px dotted black;
