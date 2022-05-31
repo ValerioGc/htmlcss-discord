@@ -46,13 +46,13 @@ button .wh:active {
 }
 /* Fine regole button */
 header {
-    height: 10vh;
     display: flex;
     align-items: center;
-    background-color: #7289da;
+    background-color: #255EE9;
+    flex-wrap: wrap;
 }
 .headerhigh {
-    margin: auto;
+    margin: 1% auto;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -87,22 +87,22 @@ header .login {
     background-image: url(../img/jumbo.png);
     background-position: bottom;
     background-size: cover;
-    height: 50vh;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .containerhead {
-    height: 50%;
-    margin: 3% auto;
+    /* height: 50%; */
+    /* margin: 3% auto; */
 }
 .containerhead > h1 {
-    margin: 3%;
     margin-bottom: 4%;
-    margin-top: 10%;
-}
-.containerhead > h1 {
     font-size: 35px;
 }
 .containerhead > h1, .headpar {
     color: #fff;
+    line-height: 30px;
 }
 /* sezioni pagina */
 .sectiont1, .sectiont2, .sectiont3 {
@@ -111,30 +111,35 @@ header .login {
     align-items: center;
 }
 .sectiont1, .sectiont2, footer {
-    height: 60vh;
+    /* height: 60vh; */
 }
 .sectiont3, .sectiont2 {
     background-color: #d3d3d3;
 }
 .container, .container2, .col, .colb {
-    height: 85%;
+    /* height: 85%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
+    margin: 5% 0;
 }
 .containerhead, .container {
-    width: 40%;
+    width: 45%;
 }
 .container2{
-    width: 20%;
+    width: 30%;
 }
 .headerhigh, .greencont, .footlcont {
-    width: 60%; 
+    width: 80%; 
 }
 .greencont {
     text-align: center;
+}
+.greencont > h1 {
+    font-size: 35px;
+    margin-bottom: 2%;
 }
 section img {
     height: 95%;
@@ -155,44 +160,55 @@ section h2 {
     align-self: flex-start;
     font-size: 35px;
 }
-/* Footer */
-footer{
+/* Footer pagina */
+footer {
     color: #fff;
+    background-color: #7289DA;
 }
 .foot {
     background-color: #23272a ;
-    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-.col, .colb, .colb>* {
-    margin-top: 5px;
+#ita {
+    display: inherit;
+}
+#band {
+    width: 20%;
+    margin-right: 4%;
+}
+#ita p::after {
+    content: '\142F';
+    margin-left: 5%;
+    font-size: 12px;
+}
+.col, .colb, .colb > * {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin: 5% 0 1%;
 }
-.col > ul {
-    margin-top: 5px;
-    list-style-type: none;
-}
-.col > ul > li:first-child, .colb h2{
+.col > ul > li:first-child, .colb h2 {
     color: #7289DA;
 }
 .colb {
-    width: 20%;
+    width: 21%;
 }
 .colb h2 {
     font-size: 30px;
     margin-bottom: 7%;
 }
 .col {
-    width: 10%;
+    width: 14%;
+}
+.col ul li {
+    padding:8% 0;
+    list-style-type: none;
 }
 .socialicon {
     font-size: 25px;
-    margin: 5% 0;
     display: flex;
     justify-content: stretch;
     width: 100%;
@@ -200,10 +216,6 @@ footer{
 .socialicon > i {
     padding-right:7% ;
     margin: 5% 0;
-}
-/* Parte finale footer */
-footer {
-    background-color: #7289DA;
 }
 /* Parte finale footer */
 .low {
