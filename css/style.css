@@ -18,19 +18,19 @@ button > *, nav li a {
 }
 .wh {
     background-color: #fff;
-    color: #000;
 }
 .bl {
     background-color: #1e90ff;
 }
-.bl, .bk {
-    color: #fff;
-}
-.bk{
+.bk {
     background-color: #000;
 }
-#wh1::before {
+.bl a, .bk a {
+    color: #fff;
+}
+.apple::before {
     content: "\1F817";
+    margin-right: 5px;
 }
 .bl, .bk, nav li a:active {
     color: white;
@@ -38,8 +38,8 @@ button > *, nav li a {
 button .wh:active {
     color: black;
 }
-.buttons-header-low{
-    margin-top: 1%;
+.buttons-header-low {
+    margin-top: 3%;
 }
 /* Fine regole button */
 header {
@@ -95,7 +95,10 @@ header .login {
     margin-bottom: 4%;
     margin-top: 10%;
 }
-.containerhead > h1, p {
+.containerhead > h1 {
+    font-size: 35px;
+}
+.containerhead > h1, .headpar {
     color: #fff;
 }
 /* sezioni pagina */
@@ -110,11 +113,13 @@ header .login {
 .sectiont3, .sectiont2 {
     background-color: #d3d3d3;
 }
-.sectiont3 {
-    height: 65vh;
-}
-.container, .container2, .greencont, .col, .colb {
+.container, .container2, .col, .colb {
     height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 .containerhead, .container {
     width: 40%;
@@ -124,6 +129,27 @@ header .login {
 }
 .headerhigh, .greencont, .footlcont {
     width: 60%; 
+}
+.greencont {
+    text-align: center;
+}
+section img {
+    height: 95%;
+}
+main {
+    font-size: 18px;
+}
+#stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 3rem;
+}
+section h2 {
+    margin-bottom:3%;
+    align-self: flex-start;
+    font-size: 35px;
 }
 /* Footer */
 .foot {
@@ -143,19 +169,24 @@ header .login {
     width: 10%;
 }
 /* Parte finale footer */
+footer {
+    background-color: #255ee9;
+}
 .low {
     margin-top: 3px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    height: 10vh;
+    align-items: flex-start;
+    height: 15vh;
 }
 .footlcont {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.footl {
+    background-color: #23272a;
+}
 /* Pattern onda tra sezioni */
 .wavepattern {
     margin-bottom: -5px;
@@ -181,7 +212,7 @@ header .login {
     background-color: #00008b;
 }
 .debug .containerhead, .debug .colb{
-    /* background-color: #ee82ee;  */
+    background-color: #ee82ee; 
 }
 .debug .container {
     background-color: #1e90ff;
