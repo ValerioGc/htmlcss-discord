@@ -4,16 +4,11 @@
 
 Reproduction of a Discord's official WebPage
 
-<br/>
-
-----
 
 <br/>
 
 
 ## *_Used Languages:_*
-
-----
 
 <br/>
 
