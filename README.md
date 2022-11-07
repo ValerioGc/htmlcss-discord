@@ -1,8 +1,14 @@
-# htmlcss-discord
 
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 <br/>
 
-Reproduction of a ~~responsive~~ Discord's official WebPage
+
+
+
+# **htmlcss-discord**
+
+> Reproduction of a ~~responsive~~ Discord's official WebPage
 
 
 <br/>
@@ -10,37 +16,29 @@ Reproduction of a ~~responsive~~ Discord's official WebPage
 
 ## *_Used Languages:_*
 
-<br/>
 
-<p>
-    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" width="36" height="36" alt="HTML5" />
-    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer">HTML 5</a>     
-</p>
-<p>
-    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="36" height="36" align="center" alt="CSS3" />
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">CSS 3</a>
-</p>
+| ![HTML](https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg) |  ![css](https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg=x250)
+|--|--|
+| [**HTML**](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) | [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) |
 
-
-<br/>
-
+<br />
 
 ## *_Previews:_*
 
-![Preview 1](/previews/prev-discord1.png)
+![Preview i1](/previews/preview-dropbox-resized.gif)
+![Preview i1](/previews/discord-thumbnails-black-p.png)
 
------
 
-![Preview 2](/previews/prev-discord2.png)
+----------
 
------
 
-![Preview 3](/previews/prev-discord3.png)
 
------
+![Preview r1](/previews/preview-discord.gif)
 
-![Preview 4](/previews/prev-discord4.png)
 
------
+--------
 
-![Preview 5](/previews/prev-discord5.png)
+![Preview 21](/previews/discord-thumbnails-black.png)
+
+
+--------
