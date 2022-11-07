@@ -2,7 +2,7 @@
 
 <br/>
 
-Reproduction of a Discord's official WebPage
+Reproduction of a ~~responsive~~ Discord's official WebPage
 
 
 <br/>
