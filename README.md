@@ -22,8 +22,25 @@ Reproduction of a Discord's official WebPage
 </p>
 
 
+<br/>
 
 
+## *_Previews:_*
 
+![Preview 1](/previews/prev-discord1.png)
 
+-----
 
+![Preview 2](/previews/prev-discord2.png)
+
+-----
+
+![Preview 3](/previews/prev-discord3.png)
+
+-----
+
+![Preview 4](/previews/prev-discord4.png)
+
+-----
+
+![Preview 5](/previews/prev-discord5.png)
