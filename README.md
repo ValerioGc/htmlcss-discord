@@ -27,7 +27,7 @@
 
 
 <details>  
-  <summary><strong><ins> View Full size previews U+2935; </summary></strong></ins>
+  <summary><strong><ins> View Full size previews :arrow_heading_down: </summary></strong></ins>
   
   <br/>
 
