@@ -1,6 +1,6 @@
 
 
-# **htmlcss-discord**    <img height="25" align="right" src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg"></a>
+# **htmlcss-discord**    <img height="25" align="right" src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg">
 
 
 > _Reproduction of a ~~responsive~~ Discord's official WebPage ~~with working mobile menu~~_
