@@ -19,15 +19,15 @@
 
 ## *_Previews:_*
 
-![Preview i1](/previews/preview-dropbox-resized.gif)
-![Preview i1](/previews/discord-thumbnails-black-p.png)
+![Preview i1](/previews/preview-discord.gif)
+![Preview i1](/previews/discord-thumbnails-black.png)
 
 
 --------
 
 
 <details>  
-  <summary><strong><ins> View Full size previews :arrow_down: </summary></strong></ins>
+  <summary><strong><ins> View Full size previews U+2935; </summary></strong></ins>
   
   <br/>
 
